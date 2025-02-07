@@ -1,0 +1,86 @@
+/* Base styles */
+body {
+    background-color: #e4e8e7;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    background-color: teal;
+    color: white;
+    padding: 20px;
+}
+
+img {
+    border-radius: 50%;
+    border: 5px solid white;
+    width: 150px;
+    height: 150px;
+}
+
+.contact-info a {
+    color: white;
+    text-decoration: none;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+section {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: teal;
+    border-bottom: 3px solid teal;
+    padding-bottom: 5px;
+}
+
+ul {
+    list-style-type: square;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input, textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: teal;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: darkcyan;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    section {
+        width: 95%;
+    }
+    
+    header {
+        padding: 10px;
+    }
+}
